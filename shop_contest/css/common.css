@@ -1,0 +1,424 @@
+@charset "utf-8";
+
+/*共通のスタイル*/
+/*border-spacing適用したい場合はborder-collapse:separate;に設定する*/
+
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #221108;
+    padding: 0 0 10px 0;
+}
+header h1{
+    text-align: center;
+    line-height: 70px;
+    font-size: 3.8rem;
+    font-weight: lighter;
+    font-family: "Parchment";
+    color: #B4910C;
+}
+nav{
+    height: 40px;
+    /* background-color: #150B05; */
+    border-top: 3px double #B4910C;
+    border-bottom: 3px double #B4910C;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 37px;
+    font-weight: bold;
+    font-family: serif;
+}
+nav ul li{
+    width: 25%;
+    text-align: center;
+}
+nav ul li a{
+    display: block;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #fffaf0;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    color: #B4910C;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+}
+main section#pickchoco{
+    max-width: 100%;
+    height: 560px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    position: relative;
+}
+main section#pickchoco img.Chocolates{
+    max-width: 100%;
+    position: absolute;
+    transition: 0.1s;
+}
+
+main section#pickchoco img#choco1{
+    left: 23%;
+    bottom: 19%;
+}
+main section#pickchoco img#choco2{
+    left: 31%;
+    bottom: 18%;
+}
+main section#pickchoco img#choco3{
+    left: 38%;
+    bottom: 16%;
+}
+main section#pickchoco img#choco4{
+    left: 43%;
+    bottom: 18%;
+}
+main section#pickchoco img#choco5{
+    left: 50%;
+    bottom: 18%;
+}
+main section#pickchoco img#choco6{
+    left: 56%;
+    bottom: 17%;
+}
+main section#pickchoco img#choco7{
+    left: 62%;
+    bottom: 19%;
+}
+main section#pickchoco img#choco8{
+    left: 69%;
+    bottom: 19%;
+}
+main section#pickchoco img#choco9{
+    left: 23%;
+    bottom: 30%;
+}
+main section#pickchoco img#choco10{
+    left: 28%;
+    bottom: 32%;
+}
+main section#pickchoco img#choco11{
+    left: 35%;
+    bottom: 32%;
+}
+main section#pickchoco img#choco12{
+    left: 41%;
+    bottom: 32%;
+}
+main section#pickchoco img#choco13{
+    left: 48%;
+    bottom: 33%;
+}
+main section#pickchoco img#choco14{
+    left: 55%;
+    bottom: 33%;
+}
+main section#pickchoco img#choco15{
+    left: 63%;
+    bottom: 34%;
+}
+main section#pickchoco img#choco16{
+    left: 32%;
+    bottom: 47%;
+}
+main section#pickchoco img#choco17{
+    left: 40%;
+    bottom: 46%;
+}
+main section#pickchoco img#choco18{
+    left: 48%;
+    bottom: 46%;
+}
+main section#pickchoco img#choco19{
+    left: 55%;
+    bottom: 47%;
+}
+main section#pickchoco img#choco20{
+    left: 35%;
+    bottom: 58%;
+}
+main section#pickchoco img#choco21{
+    left: 45%;
+    bottom: 59%;
+}
+main section#pickchoco img#choco22{
+    left: 40%;
+    bottom: 63%;
+}
+main section#pickchoco img#choco23{
+    left: 53%;
+    bottom: 60%;
+}
+main section#pickchoco img#choco24{
+    left: 45%;
+    bottom: 70%;
+}
+
+main section#pickchoco div#choco_ex{
+    width: 100%;
+    height: 560px;
+    position: absolute;
+}
+main section#pickchoco div#choco_ex div#ex_box{
+    width: 60%;
+    height: 480px;
+    margin: 40px auto;
+    border-radius: 20px;
+    font-family: serif;
+    text-align: right;
+    background-color: rgba(255, 250, 240, 0.9);
+}
+main section#pickchoco div#choco_ex div#ex_box p#close{
+    display: inline-block;
+    margin: 8px 15px 8px 0;
+    font-size: 2rem;
+    transition: 0.2s;
+
+}
+main section#pickchoco div#choco_ex div#ex_box p#close:hover{
+    cursor: hand;
+    cursor: pointer;
+    color: #B4910C;
+}
+main section#pickchoco div#choco_ex div#ex_box h2#ex_name{
+    font-size: 2.3rem;
+    padding: 5px 0;
+    text-align: center;
+    color: #fffaf0;
+    background-color: #221108;
+}
+main section#pickchoco div#choco_ex div#ex_box div#ex_img_p{
+    display: flex;
+    margin: 5px 20px;
+    text-align: left;
+}
+main section#pickchoco div#choco_ex div#ex_box div#ex_img_p figure#ex_img_box{}
+main section#pickchoco div#choco_ex div#ex_box div#ex_img_p figure#ex_img_box img#ex_img{}
+main section#pickchoco div#choco_ex div#ex_box div#ex_img_p p#ex_p{
+    width: 100%;
+    padding: 30px 40px;
+    line-height: 20px;
+}
+main section#pickchoco div#choco_ex div#ex_box div#con_box{
+    margin: 0 20px;
+    text-align: left;
+}
+main section#pickchoco div#choco_ex div#ex_box div#con_box div#con_img_box{
+    display: flex;
+    margin: 0 20px;
+}
+main section#pickchoco div#choco_ex div#ex_box div#con_box div#con_img_box figure.con_imgs{
+    margin: 10px;
+}
+main section#pickchoco div#choco_ex div#ex_box div#con_box div#con_img_box figure.con_imgs img.con_img{}
+
+
+
+main section#seasonal{
+    padding: 30px 0;
+    font-family: serif;
+    background-color: #000;
+    text-align: center;
+    border-top: 2px solid #B4910C;
+    border-bottom: 2px solid #B4910C;
+}
+main section#seasonal h2{
+    padding: 20px 0;
+    font-size: 2.5rem;
+    color: #fffaf0;
+}
+main section#seasonal h3{
+    padding: 20px 0;
+    line-height: 30px;
+    font-size: 1.6rem;
+    color: #B4910C;
+}
+
+
+
+/* スライドショー */
+
+.x-scroll {
+    width: 100%;
+    overflow: hidden;
+}
+.x-scroll_inner {
+    display: flex;
+    animation: 40s linear infinite xScroll;
+}
+@keyframes xScroll {
+    0%     { transform: translateX(0);}
+    100% { transform: translateX(-1680px);} /* .x-scroll_block 1つ分の幅だけ動かす */
+}
+.x-scroll_block {
+    display: flex;
+    width: 1680px; /* (400px + 20px) × 4 */
+}
+.x-scroll_item {
+    max-width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+
+
+
+main section#lineup{
+    max-width: 100%;
+    padding: 30px 0;
+    color: #fffaf0;
+    font-family: serif;
+    background-color: #221108;
+    border-top: 2px solid #B4910C;
+    color: #fffaf0;
+}
+main section#lineup h2{
+    padding: 20px 0 40px 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+main section#lineup div.lineup_box{
+    max-width: 100%;
+    height: 460px;
+    padding: 30px;
+    border-bottom: 1px solid #B4910C;
+}
+main section#lineup div#up1{
+    border-top: 1px solid #B4910C;
+}
+main section#lineup div.lineup_box a{
+    display: block;
+    color: #fffaf0;
+    transition: 0.2s;
+}
+main section#lineup div.lineup_box a:hover{
+    color: #B4910C;
+}
+main section#lineup div.lineup_box a div.lineup-con{
+    display: flex;
+}
+main section#lineup div.lineup_box a div.lineup-con figure.up_img_box{
+    width: 50%;
+    text-align: center;
+}
+main section#lineup div.lineup_box a div.lineup-con figure.up_img_box img{}
+main section#lineup div.lineup_box a div.lineup-con div.up_ex{
+    width: 50%;
+    padding: 20px 0;
+}
+main section#lineup div.lineup_box a div.lineup-con div.up_ex h3{
+    font-size: 2rem;
+    text-align: center;
+}
+main section#lineup div.lineup_box a div.lineup-con div.up_ex p.up_p{
+    padding: 30px 20px;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+
+
+
+main section#about{
+    max-width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #000;
+}
+main section#about h2{
+    padding: 20px 0;
+    font-size: 2.5rem;
+    color: #fffaf0;
+    font-family: serif;
+}
+main section#about h3{
+    font-size: 4.3rem;
+    padding: 30px 0;
+    font-weight: lighter;
+    font-family: "Parchment";
+    color: #B4910C;
+}
+main section#about h4{
+    padding: 20px;
+    font-size: 1.3rem;
+    color: #fffaf0;
+    font-family: serif;
+    line-height: 40px;
+}
+
+
+footer{
+    max-width: 100%;
+    height: 200px;
+    background-color: #221108;
+    padding: 10px 0;
+}
+footer div#info_box{
+    display: flex;
+    width: 100%;
+    font-family: serif;
+    color: #fffaf0;
+}
+footer div#info_box p#footer_logo{
+    width: 30%;
+    font-size: 3.8rem;
+    padding: 20px 0 0 40px;
+}
+footer div#info_box p#footer_logo a{
+    font-weight: lighter;
+    font-family: "Parchment";
+    color: #B4910C;
+}
+footer div#info_box div#tel_box{
+    width: 35%;
+    padding: 20px 0;
+}
+footer div#info_box div#tel_box p{
+    line-height: 30px;
+}
+footer div#info_box div#tel_box p#tel{
+    font-size: 2rem;
+}
+footer div#info_box p#access{
+    width: 35%;
+    padding: 40px;
+}
+
+footer p#copy{
+    max-width: 100%;
+    padding: 0 40px 0 0;
+    text-align: right;
+    color: #4e4431;
+    font-family: serif;
+}
+
+
+
+
+
+
+
+
+
+

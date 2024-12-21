@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*共通のスタイル*/
+/*border-spacing適用したい場合はborder-collapse:separate;に設定する*/
+
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #221108;
+    padding: 0 0 10px 0;
+}
+header h1{
+    text-align: center;
+    line-height: 70px;
+}
+header h1 a{
+    font-size: 3.8rem;
+    font-weight: lighter;
+    font-family: "Parchment";
+    color: #B4910C;
+}
+
+
+
+main{
+    max-width: 100%;
+    height: 600px;
+    border-top: 2px solid #B4910C;
+    border-bottom: 2px solid #B4910C;
+    background-image: url(../images/back.png);
+    background-size: cover;
+}
+
+main section{
+    display: flex;
+    color: #fffaf0;
+    font-family: serif;
+}
+main section figure#product_img{
+    padding: 100px 20px;
+}
+main section figure#product_img img{}
+main section div#product{
+    padding: 30px 40px;
+}
+main section div#product h2#title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+main section div#product p#product_p{
+    padding: 30px 0;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+main section div#product h3#price{
+    padding: 40px 0;
+    font-size: 1.5rem;
+    color: #B4910C;
+}
+main section div#product div#btn_box{
+    padding: 0 50px 0 0;
+    text-align: right;
+}
+main section div#product div#btn_box select{
+    width: 60px;
+    height: 30px;
+    margin: 0 0 3px 0;
+}
+main section div#product div#btn_box a{
+    color: #fffaf0;
+    font-family: serif;
+}
+main section div#product div#btn_box a div#btn{
+    font-size: 1.2rem;
+    background-color: #B52B0B;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+
+footer{
+    max-width: 100%;
+    height: 160px;
+    background-color: #221108;
+    padding: 10px 0;
+}
+footer div#info_box{
+    display: flex;
+    width: 100%;
+    font-family: serif;
+    color: #fffaf0;
+}
+footer div#info_box p#footer_logo{
+    width: 30%;
+    font-size: 3.8rem;
+    padding: 20px 0 0 40px;
+}
+footer div#info_box p#footer_logo a{
+    font-weight: lighter;
+    font-family: "Parchment";
+    color: #B4910C;
+}
+footer div#info_box div#tel_box{
+    width: 35%;
+    padding: 20px 0;
+}
+footer div#info_box div#tel_box p{
+    line-height: 30px;
+}
+footer div#info_box div#tel_box p#tel{
+    font-size: 2rem;
+}
+footer div#info_box p#access{
+    width: 35%;
+    padding: 40px;
+}
+footer p#copy{
+    max-width: 100%;
+    padding: 0 40px 0 0;
+    text-align: right;
+    color: #4e4431;
+    font-family: serif;
+}
